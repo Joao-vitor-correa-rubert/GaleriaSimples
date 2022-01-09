@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>****Galeria De Fotos Simples****</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajas/libs/jquery.min.js"></script>-->
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+        <script type="text/javascript">
+            $(function (){
+               $("#slides1").responsiveSlides({
+                   auto:true,
+                   pager:true,
+                   speed:300,
+                   maxwidth:540
+               });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <ul id="slides1" class="rslides">
+            <li><img src="img/CostaRica.jpg" alt="Costa Rica"></li>
+            <li><img src="img/FernandoNoronha.jpg" alt="Fernando de Noronha"></li>
+            <li><img src="img/IlhasGili.jpg" alt="Ilhas Gili"></li>
+            <li><img src="img/IlhasNecker.jpg" alt="Ilhas necker"></li>
+            <li><img src="img/Molokai.jpg" alt="Mokokai"></li>
+            <li><img src="img/Rangiroa.jpg" alt="Rangiroa"></li>
+            <li><img src="img/Samoa.jpg" alt="Samoa"></li>
+            <li><img src="img/Tullum.jpg" alt="Tullum"></li>
+        </ul>
+    </body>
+</html>

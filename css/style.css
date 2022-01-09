@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/07/2017, 09:07:44
+    Author     : Aluno
+*/
+body{
+    background: #222;
+    font: 20px sans-serif;
+    margin: auto 0;
+    text-align: center;
+}
+.rslides{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.rslides li{
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rslides img{
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+#slides1{
+    box-shadow: none;
+    margin: 0 auto;
+}
+/*configurando a paginação*/
+.rslides_tabs{
+    list-style: none;
+    padding: 0;
+    background: rgba(0,0,0.25,0.3);
+    box-shadow:  0 0 1px rgba(0,0,0.25,0.25);
+    font-size: 1.11em;
+    margin: 0 auto;
+    max-width: 540px;
+    text-align: center;
+    width: 100%;
+ }
+ .rslides_tabs li{
+     display: inline;
+     float: none;
+     margin-right: 1px;
+ }
+ .rslides_tabs a{
+     width: auto;
+     line-height: 20px;
+     padding: 9px 20px;
+     height: auto;
+     background: transparent;
+     display: inline;
+     color:#FFF;
+     text-decoration: none;
+ }
+ .rslides_tabs .rslides_here a{
+     background: rgba(255,255,255,0.1);
+     color: #FFF;
+     font-weight: bold;
+ }
